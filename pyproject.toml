@@ -1,0 +1,37 @@
+[project]
+name = "classification-pipeline"
+version = "0.1.0"
+description = "Classification pipeline built on top of mlnip-lib"
+readme = "readme.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "mlnip-lib",
+    "numpy",
+    "pandas>=3.1.0",
+    "matplotlib",
+]
+
+[project.urls]
+Source = "https://github.com/Machine-Learning-Name-in-progress/Classification-Pipeline"
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "commitizen",
+]
+
+[tool.uv]
+# Notebook project, not an installable package
+package = false
+
+[tool.uv.sources]
+# PyPI release (0.1.1) predates metrics, preprocessing, LDA/QDA and logistic regression
+mlnip-lib = { git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library", branch = "main" }
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_provider = "uv"
+tag_format = "v$version"
+major_version_zero = true
+update_changelog_on_bump = true
