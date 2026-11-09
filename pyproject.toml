@@ -1,7 +1,7 @@
 [project]
-name = "classification-pipeline"
+name = "regression-pipeline"
 version = "0.1.0"
-description = "Classification pipeline built on top of mlnip-lib"
+description = "Regression pipeline built on top of mlnip-lib"
 readme = "readme.md"
 requires-python = ">=3.11"
 license = "MIT"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.urls]
-Source = "https://github.com/Machine-Learning-Name-in-progress/Classification-Pipeline"
+Source = "https://github.com/Machine-Learning-Name-in-progress/Regression-Pipeline.git"
 
 [dependency-groups]
 dev = [
