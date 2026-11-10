@@ -1098,7 +1098,7 @@ wheels = [
 [[package]]
 name = "mlnip-lib"
 version = "0.1.1"
-source = { git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?branch=main#0422e86c34a3b7c1b21e4f69fdaa5b9045d948fd" }
+source = { git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?rev=9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6#9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6" }
 dependencies = [
     { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "numpy", version = "2.5.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
@@ -1734,7 +1734,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "matplotlib" },
-    { name = "mlnip-lib", git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?branch=main" },
+    { name = "mlnip-lib", git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?rev=9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6" },
     { name = "numpy" },
     { name = "pandas", specifier = ">=3.1.0" },
 ]
