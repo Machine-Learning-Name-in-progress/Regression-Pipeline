@@ -6,7 +6,7 @@ Trabalho de aprendizado de máquina usando a biblioteca do grupo.
 
 Se a relação observada antes da campanha de vacinação materna contra o VSR (iniciada no SUS em 04/12/2025) se mantivesse, quantas notificações semanais de SRAG com VSR esperaríamos em bebês de **0 a menos de 6 meses** em 2026?
 
-- **Alvo:** contagem semanal de notificações de SRAG com VSR na faixa de 0 a <6 meses.
+- **Alvo:** contagem semanal de notificações de SRAG (Sindrome Respiratória Aguda Grave) com VSR (Vírus Sincicial Respiratório) na faixa de 0 a <6 meses.
 - **Entradas:** contagens na mesma semana nas faixas de 6 a <12, 12 a <24 e 24 a <48 meses, com comparação de defasagens de uma e duas semanas.
 - **Hipótese:** a relação histórica entre as faixas etárias se manteria. Como algumas crianças menores de 24 meses são elegíveis ao nirsevimabe, há uma análise de sensibilidade usando apenas a faixa de 24 a <48 meses.
 
