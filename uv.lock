@@ -1,5 +1,5 @@
 version = 1
-revision = 5
+revision = 3
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -1097,12 +1097,16 @@ wheels = [
 
 [[package]]
 name = "mlnip-lib"
-version = "0.1.1"
-source = { git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?rev=9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6#9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6" }
+version = "1.0.2"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "numpy", version = "2.5.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
     { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a5/e3/1a903aae0a2108f9e7166ea7ca39b278f566065ea10d69668e394b85fad5/mlnip_lib-1.0.2.tar.gz", hash = "sha256:cb7c8f521cc78ebe9704f2bfd1d2175cc7c9b4315070c882b666f76a19fdfeb1", size = 35127, upload-time = "2026-11-10T01:57:05.045Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/56/f7/dbd427257f4649a07379fa3d94217685cda139b771eea469e3948df34c81/mlnip_lib-1.0.2-py3-none-any.whl", hash = "sha256:912ee3f3a2005cd46c9616310356deb5b84d0b7f36862bcaefa296bb04dd26ed", size = 48722, upload-time = "2026-11-10T01:57:03.983Z" },
 ]
 
 [[package]]
@@ -1734,7 +1738,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "matplotlib" },
-    { name = "mlnip-lib", git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library?rev=9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6" },
+    { name = "mlnip-lib", specifier = ">=1.0.2" },
     { name = "numpy" },
     { name = "pandas", specifier = ">=3.1.0" },
 ]
