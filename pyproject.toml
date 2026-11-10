@@ -6,7 +6,7 @@ readme = "readme.md"
 requires-python = ">=3.11"
 license = "MIT"
 dependencies = [
-    "mlnip-lib==1.0.2",
+    "mlnip-lib",
     "numpy",
     "pandas>=3.1.0",
     "matplotlib",
@@ -26,8 +26,8 @@ dev = [
 package = false
 
 [tool.uv.sources]
-# PyPI release (0.1.1) predates metrics,preprocessing, LDA/QDA and logistic regression
-mlnip-lib = { git = "https://github.comMachine-Learning-Name-in-progress/ML-Library", branch= "main" }
+# PyPI release (0.1.1) predates metrics, preprocessing, LDA/QDA and logistic regression
+mlnip-lib = { git = "https://github.com/Machine-Learning-Name-in-progress/ML-Library", rev = "9d1cf513dbfba9341eda56f0e3b93e59d8ebfad6" }
 
 [tool.commitizen]
 name = "cz_conventional_commits"
