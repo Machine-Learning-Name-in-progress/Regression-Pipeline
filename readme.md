@@ -50,7 +50,7 @@ Todos os resultados aparecem em tabelas e gráficos no próprio notebook; não h
 | 2. EDA                   | Valores ausentes, filtro de casos positivos para VSR, faixas etárias, série semanal e correlações |
 | 3. Divisão treino/teste | Painel semanal (uma linha por semana epidemiológica) e corte por data                                |
 | 4. Pré-processamento    | Checagem de ausentes e padronização com parâmetros do treino                                       |
-| 5. Modelos candidatos    | Mediana (baseline), mínimos quadrados, Ridge, Lasso, rede neural (MLP) e PCA + OLS                              |
+| 5. Modelos candidatos    | Mediana (baseline), mínimos quadrados, Ridge, Lasso, rede neural (MLP) e PCA + OLS                   |
 | 6. Validação           | Validação por blocos temporais e busca de hiperparâmetros                                          |
 | 7. Comparação          | Escolha do modelo final                                                                               |
 | 8. Avaliação final     | Métricas no teste e cenário de referência para 2026                                                |
